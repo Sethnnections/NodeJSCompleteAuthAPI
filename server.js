@@ -92,9 +92,7 @@ const logMemoryUsage = () => {
 const startServer = async () => {
   try {
     // Connect to database
-    await connectDB();
-    logger.info('Database connected successfully');
-    
+    await connectDB();    
     // Start the server
     const server = app.listen(PORT, HOST, () => {
       logger.info(`🚀 Server running on http://${HOST}:${PORT}`);
