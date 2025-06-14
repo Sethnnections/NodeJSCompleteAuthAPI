@@ -1,31 +1,39 @@
 const winston = require('winston');
-const { combine, timestamp, printf, colorize, align } = winston.format;
+const DailyRotateFile = require('winston-daily-rotate-file');
+const config = require('../config');
 
 const logger = winston.createLogger({
-  level: 'info',
-  format: combine(
-    colorize({ all: true }),
-    timestamp({
-      format: 'YYYY-MM-DD hh:mm:ss.SSS A',
-    }),
-    align(),
-    printf((info) => `[${info.timestamp}] ${info.level}: ${info.message}`)
+  level: config.logging.level,
+  format: winston.format.combine(
+    winston.format.timestamp(),
+    winston.format.errors({ stack: true }),
+    winston.format.json()
   ),
+  defaultMeta: { service: 'your-app' },
   transports: [
-    new winston.transports.File({ filename: 'logs/error.log', level: 'error' }),
-    new winston.transports.File({ filename: 'logs/combined.log' }),
-    new winston.transports.Console(),
-  ],
+    new DailyRotateFile({
+      filename: 'logs/error-%DATE%.log',
+      datePattern: 'YYYY-MM-DD',
+      level: 'error',
+      maxSize: config.logging.maxSize,
+      maxFiles: config.logging.maxFiles
+    }),
+    new DailyRotateFile({
+      filename: 'logs/combined-%DATE%.log',
+      datePattern: 'YYYY-MM-DD',
+      maxSize: config.logging.maxSize,
+      maxFiles: config.logging.maxFiles
+    })
+  ]
 });
 
-process.on('unhandledRejection', (ex) => {
-  logger.error(`UNHANDLED REJECTION: ${ex.message}`, ex);
-  process.exit(1);
-});
-
-process.on('uncaughtException', (ex) => {
-  logger.error(`UNCAUGHT EXCEPTION: ${ex.message}`, ex);
-  process.exit(1);
-});
+if (config.env !== 'production') {
+  logger.add(new winston.transports.Console({
+    format: winston.format.combine(
+      winston.format.colorize(),
+      winston.format.simple()
+    )
+  }));
+}
 
 module.exports = logger;
