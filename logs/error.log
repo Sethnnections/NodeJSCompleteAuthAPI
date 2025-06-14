@@ -1,0 +1,118 @@
+[2025-06-14 02:31:59.087 PM] [31merror[39m: 	[31mEmail sending failed: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to[39m
+[31m535 5.7.8  https://support.google.com/mail/?p=BadCredentials a640c23a62f3a-adec81c6b1dsm300411466b.58 - gsmtp[39m
+[2025-06-14 03:13:07.720 PM] [31merror[39m: 	[31mEmail sending failed: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to[39m
+[31m535 5.7.8  https://support.google.com/mail/?p=BadCredentials a640c23a62f3a-adf7cd4651esm181273966b.6 - gsmtp[39m
+[2025-06-14 03:37:04.582 PM] [31merror[39m: 	[31mReferenceError: ApiError is not defined[39m
+[31m    at notFoundHandler (/home/patince/Documents/GitHub/my apps/auth-service/middlewares/error.middleware.js:14:26)[39m
+[31m    at Layer.handle [as handle_request] (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/layer.js:95:5)[39m
+[31m    at trim_prefix (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:328:13)[39m
+[31m    at /home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:286:9[39m
+[31m    at Function.process_params (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:346:12)[39m
+[31m    at next (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:280:10)[39m
+[31m    at SendStream.error (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/serve-static/index.js:121:7)[39m
+[31m    at SendStream.emit (node:events:524:28)[39m
+[31m    at SendStream.error (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/send/index.js:270:17)[39m
+[31m    at SendStream.onStatError (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/send/index.js:417:12)[39m
+[2025-06-14 03:37:04.635 PM] [31merror[39m: 	[31mReferenceError: ApiError is not defined[39m
+[31m    at notFoundHandler (/home/patince/Documents/GitHub/my apps/auth-service/middlewares/error.middleware.js:14:26)[39m
+[31m    at Layer.handle [as handle_request] (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/layer.js:95:5)[39m
+[31m    at trim_prefix (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:328:13)[39m
+[31m    at /home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:286:9[39m
+[31m    at Function.process_params (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:346:12)[39m
+[31m    at next (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:280:10)[39m
+[31m    at SendStream.error (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/serve-static/index.js:121:7)[39m
+[31m    at SendStream.emit (node:events:524:28)[39m
+[31m    at SendStream.error (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/send/index.js:270:17)[39m
+[31m    at SendStream.onStatError (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/send/index.js:417:12)[39m
+[2025-06-14 03:57:47.460 PM] [31merror[39m: 	[31mReferenceError: ApiError is not defined[39m
+[31m    at notFoundHandler (/home/patince/Documents/GitHub/my apps/auth-service/middlewares/error.middleware.js:14:26)[39m
+[31m    at Layer.handle [as handle_request] (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/layer.js:95:5)[39m
+[31m    at trim_prefix (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:328:13)[39m
+[31m    at /home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:286:9[39m
+[31m    at Function.process_params (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:346:12)[39m
+[31m    at next (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:280:10)[39m
+[31m    at SendStream.error (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/serve-static/index.js:121:7)[39m
+[31m    at SendStream.emit (node:events:524:28)[39m
+[31m    at SendStream.error (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/send/index.js:270:17)[39m
+[31m    at SendStream.onStatError (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/send/index.js:417:12)[39m
+[2025-06-14 03:57:47.488 PM] [31merror[39m: 	[31mReferenceError: ApiError is not defined[39m
+[31m    at notFoundHandler (/home/patince/Documents/GitHub/my apps/auth-service/middlewares/error.middleware.js:14:26)[39m
+[31m    at Layer.handle [as handle_request] (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/layer.js:95:5)[39m
+[31m    at trim_prefix (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:328:13)[39m
+[31m    at /home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:286:9[39m
+[31m    at Function.process_params (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:346:12)[39m
+[31m    at next (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:280:10)[39m
+[31m    at SendStream.error (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/serve-static/index.js:121:7)[39m
+[31m    at SendStream.emit (node:events:524:28)[39m
+[31m    at SendStream.error (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/send/index.js:270:17)[39m
+[31m    at SendStream.onStatError (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/send/index.js:417:12)[39m
+[2025-06-14 03:57:48.686 PM] [31merror[39m: 	[31mReferenceError: ApiError is not defined[39m
+[31m    at notFoundHandler (/home/patince/Documents/GitHub/my apps/auth-service/middlewares/error.middleware.js:14:26)[39m
+[31m    at Layer.handle [as handle_request] (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/layer.js:95:5)[39m
+[31m    at trim_prefix (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:328:13)[39m
+[31m    at /home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:286:9[39m
+[31m    at Function.process_params (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:346:12)[39m
+[31m    at next (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:280:10)[39m
+[31m    at SendStream.error (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/serve-static/index.js:121:7)[39m
+[31m    at SendStream.emit (node:events:524:28)[39m
+[31m    at SendStream.error (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/send/index.js:270:17)[39m
+[31m    at SendStream.onStatError (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/send/index.js:417:12)[39m
+[2025-06-14 03:57:48.723 PM] [31merror[39m: 	[31mReferenceError: ApiError is not defined[39m
+[31m    at notFoundHandler (/home/patince/Documents/GitHub/my apps/auth-service/middlewares/error.middleware.js:14:26)[39m
+[31m    at Layer.handle [as handle_request] (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/layer.js:95:5)[39m
+[31m    at trim_prefix (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:328:13)[39m
+[31m    at /home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:286:9[39m
+[31m    at Function.process_params (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:346:12)[39m
+[31m    at next (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:280:10)[39m
+[31m    at SendStream.error (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/serve-static/index.js:121:7)[39m
+[31m    at SendStream.emit (node:events:524:28)[39m
+[31m    at SendStream.error (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/send/index.js:270:17)[39m
+[31m    at SendStream.onStatError (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/send/index.js:417:12)[39m
+[2025-06-14 06:07:01.573 PM] [31merror[39m: 	[31mToken verification failed: jwt malformed[39m
+[2025-06-14 06:07:01.574 PM] [31merror[39m: 	[31mError: Invalid or expired token[39m
+[31m    at auth (/home/patince/Documents/GitHub/my apps/auth-service/middlewares/auth.middleware.js:17:13)[39m
+[31m    at Layer.handle [as handle_request] (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/layer.js:95:5)[39m
+[31m    at next (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/route.js:149:13)[39m
+[31m    at Route.dispatch (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/route.js:119:3)[39m
+[31m    at Layer.handle [as handle_request] (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/layer.js:95:5)[39m
+[31m    at /home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:284:15[39m
+[31m    at Function.process_params (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:346:12)[39m
+[31m    at next (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:280:10)[39m
+[31m    at Function.handle (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:175:3)[39m
+[31m    at router (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:47:12)[39m
+[2025-06-14 06:07:11.617 PM] [31merror[39m: 	[31mToken verification failed: jwt malformed[39m
+[2025-06-14 06:07:11.618 PM] [31merror[39m: 	[31mError: Invalid or expired token[39m
+[31m    at auth (/home/patince/Documents/GitHub/my apps/auth-service/middlewares/auth.middleware.js:17:13)[39m
+[31m    at Layer.handle [as handle_request] (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/layer.js:95:5)[39m
+[31m    at next (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/route.js:149:13)[39m
+[31m    at Route.dispatch (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/route.js:119:3)[39m
+[31m    at Layer.handle [as handle_request] (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/layer.js:95:5)[39m
+[31m    at /home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:284:15[39m
+[31m    at Function.process_params (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:346:12)[39m
+[31m    at next (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:280:10)[39m
+[31m    at Function.handle (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:175:3)[39m
+[31m    at router (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:47:12)[39m
+[2025-06-14 06:07:26.021 PM] [31merror[39m: 	[31mToken verification failed: jwt malformed[39m
+[2025-06-14 06:07:26.021 PM] [31merror[39m: 	[31mError: Invalid or expired token[39m
+[31m    at auth (/home/patince/Documents/GitHub/my apps/auth-service/middlewares/auth.middleware.js:17:13)[39m
+[31m    at Layer.handle [as handle_request] (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/layer.js:95:5)[39m
+[31m    at next (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/route.js:149:13)[39m
+[31m    at Route.dispatch (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/route.js:119:3)[39m
+[31m    at Layer.handle [as handle_request] (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/layer.js:95:5)[39m
+[31m    at /home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:284:15[39m
+[31m    at Function.process_params (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:346:12)[39m
+[31m    at next (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:280:10)[39m
+[31m    at Function.handle (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:175:3)[39m
+[31m    at router (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:47:12)[39m
+[2025-06-14 06:07:34.662 PM] [31merror[39m: 	[31mToken verification failed: jwt malformed[39m
+[2025-06-14 06:07:34.663 PM] [31merror[39m: 	[31mError: Invalid or expired token[39m
+[31m    at auth (/home/patince/Documents/GitHub/my apps/auth-service/middlewares/auth.middleware.js:17:13)[39m
+[31m    at Layer.handle [as handle_request] (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/layer.js:95:5)[39m
+[31m    at next (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/route.js:149:13)[39m
+[31m    at Route.dispatch (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/route.js:119:3)[39m
+[31m    at Layer.handle [as handle_request] (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/layer.js:95:5)[39m
+[31m    at /home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:284:15[39m
+[31m    at Function.process_params (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:346:12)[39m
+[31m    at next (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:280:10)[39m
+[31m    at Function.handle (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:175:3)[39m
+[31m    at router (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:47:12)[39m

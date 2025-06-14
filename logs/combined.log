@@ -1,0 +1,172 @@
+[2025-06-14 12:53:42.089 PM] [32minfo[39m: 	[32mServer running on port 3000[39m
+[2025-06-14 01:08:09.128 PM] [32minfo[39m: 	[32mServer running on port 3000[39m
+[2025-06-14 01:08:09.174 PM] [32minfo[39m: 	[32mMongoDB connected successfully: localhost[39m
+[2025-06-14 01:23:14.696 PM] [33mwarn[39m: 	[33mMongoDB disconnected[39m
+[2025-06-14 01:24:06.127 PM] [32minfo[39m: 	[32mServer running on port 3000[39m
+[2025-06-14 01:24:06.186 PM] [32minfo[39m: 	[32mMongoDB connected successfully: localhost[39m
+[2025-06-14 01:25:49.909 PM] [33mwarn[39m: 	[33mMongoDB disconnected[39m
+[2025-06-14 01:30:55.146 PM] [32minfo[39m: 	[32mServer running on port 3000[39m
+[2025-06-14 01:30:55.180 PM] [32minfo[39m: 	[32mMongoDB connected successfully: localhost[39m
+[2025-06-14 01:31:15.578 PM] [33mwarn[39m: 	[33mMongoDB disconnected[39m
+[2025-06-14 01:32:41.888 PM] [32minfo[39m: 	[32mServer running on port 3000[39m
+[2025-06-14 01:32:41.936 PM] [32minfo[39m: 	[32mMongoDB connected successfully: localhost[39m
+[2025-06-14 01:38:38.204 PM] [33mwarn[39m: 	[33mMongoDB disconnected[39m
+[2025-06-14 01:56:40.266 PM] [32minfo[39m: 	[32mServer running on port 3000[39m
+[2025-06-14 01:56:40.299 PM] [32minfo[39m: 	[32mMongoDB connected successfully: localhost[39m
+[2025-06-14 01:58:12.491 PM] [33mwarn[39m: 	[33mMongoDB disconnected[39m
+[2025-06-14 01:58:19.556 PM] [32minfo[39m: 	[32mServer running on port 3000[39m
+[2025-06-14 01:58:19.588 PM] [32minfo[39m: 	[32mMongoDB connected successfully: localhost[39m
+[2025-06-14 01:59:51.030 PM] [33mwarn[39m: 	[33mMongoDB disconnected[39m
+[2025-06-14 01:59:56.501 PM] [32minfo[39m: 	[32mServer running on port 3000[39m
+[2025-06-14 01:59:56.533 PM] [32minfo[39m: 	[32mMongoDB connected successfully: localhost[39m
+[2025-06-14 02:00:33.342 PM] [33mwarn[39m: 	[33mMongoDB disconnected[39m
+[2025-06-14 02:01:18.896 PM] [32minfo[39m: 	[32mServer running on port 3000[39m
+[2025-06-14 02:01:18.946 PM] [32minfo[39m: 	[32mMongoDB connected successfully: localhost[39m
+[2025-06-14 02:31:59.087 PM] [31merror[39m: 	[31mEmail sending failed: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to[39m
+[31m535 5.7.8  https://support.google.com/mail/?p=BadCredentials a640c23a62f3a-adec81c6b1dsm300411466b.58 - gsmtp[39m
+[2025-06-14 02:39:49.524 PM] [33mwarn[39m: 	[33mMongoDB disconnected[39m
+[2025-06-14 03:12:32.140 PM] [32minfo[39m: 	[32mServer running on port 3000[39m
+[2025-06-14 03:12:32.170 PM] [32minfo[39m: 	[32mMongoDB connected successfully: localhost[39m
+[2025-06-14 03:13:07.720 PM] [31merror[39m: 	[31mEmail sending failed: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to[39m
+[31m535 5.7.8  https://support.google.com/mail/?p=BadCredentials a640c23a62f3a-adf7cd4651esm181273966b.6 - gsmtp[39m
+[2025-06-14 03:27:37.923 PM] [33mwarn[39m: 	[33mMongoDB disconnected[39m
+[2025-06-14 03:27:49.844 PM] [32minfo[39m: 	[32mServer running on port 3000[39m
+[2025-06-14 03:27:49.880 PM] [32minfo[39m: 	[32mMongoDB connected successfully: localhost[39m
+[2025-06-14 03:28:09.725 PM] [32minfo[39m: 	[32mEmail sent to john@example3.com[39m
+[2025-06-14 03:31:34.674 PM] [33mwarn[39m: 	[33mMongoDB disconnected[39m
+[2025-06-14 03:31:48.935 PM] [32minfo[39m: 	[32mServer running on port 3000[39m
+[2025-06-14 03:31:48.999 PM] [32minfo[39m: 	[32mMongoDB connected successfully: localhost[39m
+[2025-06-14 03:32:32.218 PM] [32minfo[39m: 	[32mEmail sent to norahchikanda@gmail.com[39m
+[2025-06-14 03:37:04.582 PM] [31merror[39m: 	[31mReferenceError: ApiError is not defined[39m
+[31m    at notFoundHandler (/home/patince/Documents/GitHub/my apps/auth-service/middlewares/error.middleware.js:14:26)[39m
+[31m    at Layer.handle [as handle_request] (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/layer.js:95:5)[39m
+[31m    at trim_prefix (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:328:13)[39m
+[31m    at /home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:286:9[39m
+[31m    at Function.process_params (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:346:12)[39m
+[31m    at next (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:280:10)[39m
+[31m    at SendStream.error (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/serve-static/index.js:121:7)[39m
+[31m    at SendStream.emit (node:events:524:28)[39m
+[31m    at SendStream.error (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/send/index.js:270:17)[39m
+[31m    at SendStream.onStatError (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/send/index.js:417:12)[39m
+[2025-06-14 03:37:04.635 PM] [31merror[39m: 	[31mReferenceError: ApiError is not defined[39m
+[31m    at notFoundHandler (/home/patince/Documents/GitHub/my apps/auth-service/middlewares/error.middleware.js:14:26)[39m
+[31m    at Layer.handle [as handle_request] (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/layer.js:95:5)[39m
+[31m    at trim_prefix (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:328:13)[39m
+[31m    at /home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:286:9[39m
+[31m    at Function.process_params (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:346:12)[39m
+[31m    at next (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:280:10)[39m
+[31m    at SendStream.error (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/serve-static/index.js:121:7)[39m
+[31m    at SendStream.emit (node:events:524:28)[39m
+[31m    at SendStream.error (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/send/index.js:270:17)[39m
+[31m    at SendStream.onStatError (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/send/index.js:417:12)[39m
+[2025-06-14 03:57:33.788 PM] [33mwarn[39m: 	[33mMongoDB disconnected[39m
+[2025-06-14 03:57:39.661 PM] [32minfo[39m: 	[32mServer running on port 3000[39m
+[2025-06-14 03:57:39.697 PM] [32minfo[39m: 	[32mMongoDB connected successfully: localhost[39m
+[2025-06-14 03:57:47.460 PM] [31merror[39m: 	[31mReferenceError: ApiError is not defined[39m
+[31m    at notFoundHandler (/home/patince/Documents/GitHub/my apps/auth-service/middlewares/error.middleware.js:14:26)[39m
+[31m    at Layer.handle [as handle_request] (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/layer.js:95:5)[39m
+[31m    at trim_prefix (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:328:13)[39m
+[31m    at /home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:286:9[39m
+[31m    at Function.process_params (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:346:12)[39m
+[31m    at next (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:280:10)[39m
+[31m    at SendStream.error (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/serve-static/index.js:121:7)[39m
+[31m    at SendStream.emit (node:events:524:28)[39m
+[31m    at SendStream.error (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/send/index.js:270:17)[39m
+[31m    at SendStream.onStatError (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/send/index.js:417:12)[39m
+[2025-06-14 03:57:47.488 PM] [31merror[39m: 	[31mReferenceError: ApiError is not defined[39m
+[31m    at notFoundHandler (/home/patince/Documents/GitHub/my apps/auth-service/middlewares/error.middleware.js:14:26)[39m
+[31m    at Layer.handle [as handle_request] (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/layer.js:95:5)[39m
+[31m    at trim_prefix (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:328:13)[39m
+[31m    at /home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:286:9[39m
+[31m    at Function.process_params (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:346:12)[39m
+[31m    at next (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:280:10)[39m
+[31m    at SendStream.error (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/serve-static/index.js:121:7)[39m
+[31m    at SendStream.emit (node:events:524:28)[39m
+[31m    at SendStream.error (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/send/index.js:270:17)[39m
+[31m    at SendStream.onStatError (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/send/index.js:417:12)[39m
+[2025-06-14 03:57:48.686 PM] [31merror[39m: 	[31mReferenceError: ApiError is not defined[39m
+[31m    at notFoundHandler (/home/patince/Documents/GitHub/my apps/auth-service/middlewares/error.middleware.js:14:26)[39m
+[31m    at Layer.handle [as handle_request] (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/layer.js:95:5)[39m
+[31m    at trim_prefix (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:328:13)[39m
+[31m    at /home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:286:9[39m
+[31m    at Function.process_params (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:346:12)[39m
+[31m    at next (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:280:10)[39m
+[31m    at SendStream.error (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/serve-static/index.js:121:7)[39m
+[31m    at SendStream.emit (node:events:524:28)[39m
+[31m    at SendStream.error (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/send/index.js:270:17)[39m
+[31m    at SendStream.onStatError (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/send/index.js:417:12)[39m
+[2025-06-14 03:57:48.723 PM] [31merror[39m: 	[31mReferenceError: ApiError is not defined[39m
+[31m    at notFoundHandler (/home/patince/Documents/GitHub/my apps/auth-service/middlewares/error.middleware.js:14:26)[39m
+[31m    at Layer.handle [as handle_request] (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/layer.js:95:5)[39m
+[31m    at trim_prefix (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:328:13)[39m
+[31m    at /home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:286:9[39m
+[31m    at Function.process_params (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:346:12)[39m
+[31m    at next (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:280:10)[39m
+[31m    at SendStream.error (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/serve-static/index.js:121:7)[39m
+[31m    at SendStream.emit (node:events:524:28)[39m
+[31m    at SendStream.error (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/send/index.js:270:17)[39m
+[31m    at SendStream.onStatError (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/send/index.js:417:12)[39m
+[2025-06-14 04:01:10.375 PM] [33mwarn[39m: 	[33mMongoDB disconnected[39m
+[2025-06-14 04:01:21.176 PM] [32minfo[39m: 	[32mServer running on port 3000[39m
+[2025-06-14 04:01:21.211 PM] [32minfo[39m: 	[32mMongoDB connected successfully: localhost[39m
+[2025-06-14 04:13:56.249 PM] [33mwarn[39m: 	[33mMongoDB disconnected[39m
+[2025-06-14 04:14:07.587 PM] [32minfo[39m: 	[32mServer running on port 3000[39m
+[2025-06-14 04:14:07.623 PM] [32minfo[39m: 	[32mMongoDB connected successfully: localhost[39m
+[2025-06-14 04:15:23.400 PM] [32minfo[39m: 	[32mVerifying email with token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2ODRkNzllYmJmZGQzYjdkZmE3MTQyNmYiLCJpYXQiOjE3NDk5MDc5NDcsImV4cCI6MTc0OTk5NDM0N30._c461NFnZV3lMXVILdWma2SlsrkPVSmhCTzpHX6YxTE[39m
+[2025-06-14 04:15:23.401 PM] [32minfo[39m: 	[32mToken received for email verification: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2ODRkNzllYmJmZGQzYjdkZmE3MTQyNmYiLCJpYXQiOjE3NDk5MDc5NDcsImV4cCI6MTc0OTk5NDM0N30._c461NFnZV3lMXVILdWma2SlsrkPVSmhCTzpHX6YxTE[39m
+[2025-06-14 05:53:11.545 PM] [32minfo[39m: 	[32mEmail sent to norahchikanda@gmail.com[39m
+[2025-06-14 05:56:36.168 PM] [33mwarn[39m: 	[33mMongoDB disconnected[39m
+[2025-06-14 05:56:42.453 PM] [32minfo[39m: 	[32mServer running on port 3000[39m
+[2025-06-14 05:56:42.489 PM] [32minfo[39m: 	[32mMongoDB connected successfully: localhost[39m
+[2025-06-14 06:00:26.270 PM] [33mwarn[39m: 	[33mMongoDB disconnected[39m
+[2025-06-14 06:00:35.131 PM] [32minfo[39m: 	[32mServer running on port 3000[39m
+[2025-06-14 06:00:35.165 PM] [32minfo[39m: 	[32mMongoDB connected successfully: localhost[39m
+[2025-06-14 06:07:01.573 PM] [31merror[39m: 	[31mToken verification failed: jwt malformed[39m
+[2025-06-14 06:07:01.574 PM] [31merror[39m: 	[31mError: Invalid or expired token[39m
+[31m    at auth (/home/patince/Documents/GitHub/my apps/auth-service/middlewares/auth.middleware.js:17:13)[39m
+[31m    at Layer.handle [as handle_request] (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/layer.js:95:5)[39m
+[31m    at next (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/route.js:149:13)[39m
+[31m    at Route.dispatch (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/route.js:119:3)[39m
+[31m    at Layer.handle [as handle_request] (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/layer.js:95:5)[39m
+[31m    at /home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:284:15[39m
+[31m    at Function.process_params (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:346:12)[39m
+[31m    at next (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:280:10)[39m
+[31m    at Function.handle (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:175:3)[39m
+[31m    at router (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:47:12)[39m
+[2025-06-14 06:07:11.617 PM] [31merror[39m: 	[31mToken verification failed: jwt malformed[39m
+[2025-06-14 06:07:11.618 PM] [31merror[39m: 	[31mError: Invalid or expired token[39m
+[31m    at auth (/home/patince/Documents/GitHub/my apps/auth-service/middlewares/auth.middleware.js:17:13)[39m
+[31m    at Layer.handle [as handle_request] (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/layer.js:95:5)[39m
+[31m    at next (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/route.js:149:13)[39m
+[31m    at Route.dispatch (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/route.js:119:3)[39m
+[31m    at Layer.handle [as handle_request] (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/layer.js:95:5)[39m
+[31m    at /home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:284:15[39m
+[31m    at Function.process_params (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:346:12)[39m
+[31m    at next (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:280:10)[39m
+[31m    at Function.handle (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:175:3)[39m
+[31m    at router (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:47:12)[39m
+[2025-06-14 06:07:26.021 PM] [31merror[39m: 	[31mToken verification failed: jwt malformed[39m
+[2025-06-14 06:07:26.021 PM] [31merror[39m: 	[31mError: Invalid or expired token[39m
+[31m    at auth (/home/patince/Documents/GitHub/my apps/auth-service/middlewares/auth.middleware.js:17:13)[39m
+[31m    at Layer.handle [as handle_request] (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/layer.js:95:5)[39m
+[31m    at next (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/route.js:149:13)[39m
+[31m    at Route.dispatch (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/route.js:119:3)[39m
+[31m    at Layer.handle [as handle_request] (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/layer.js:95:5)[39m
+[31m    at /home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:284:15[39m
+[31m    at Function.process_params (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:346:12)[39m
+[31m    at next (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:280:10)[39m
+[31m    at Function.handle (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:175:3)[39m
+[31m    at router (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:47:12)[39m
+[2025-06-14 06:07:34.662 PM] [31merror[39m: 	[31mToken verification failed: jwt malformed[39m
+[2025-06-14 06:07:34.663 PM] [31merror[39m: 	[31mError: Invalid or expired token[39m
+[31m    at auth (/home/patince/Documents/GitHub/my apps/auth-service/middlewares/auth.middleware.js:17:13)[39m
+[31m    at Layer.handle [as handle_request] (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/layer.js:95:5)[39m
+[31m    at next (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/route.js:149:13)[39m
+[31m    at Route.dispatch (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/route.js:119:3)[39m
+[31m    at Layer.handle [as handle_request] (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/layer.js:95:5)[39m
+[31m    at /home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:284:15[39m
+[31m    at Function.process_params (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:346:12)[39m
+[31m    at next (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:280:10)[39m
+[31m    at Function.handle (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:175:3)[39m
+[31m    at router (/home/patince/Documents/GitHub/my apps/auth-service/node_modules/express/lib/router/index.js:47:12)[39m
+[2025-06-14 06:09:38.340 PM] [33mwarn[39m: 	[33mMongoDB disconnected[39m
