@@ -1,6 +1,7 @@
 const mongoose = require('mongoose');
 const bcrypt = require('bcryptjs');
 const { roles } = require('../config/roles');
+const mongoosePaginate = require('mongoose-paginate-v2');
 
 const userSchema = mongoose.Schema(
   {
@@ -41,6 +42,8 @@ const userSchema = mongoose.Schema(
     timestamps: true,
   }
 );
+
+userSchema.plugin(mongoosePaginate);
 
 userSchema.pre('save', async function (next) {
   if (this.isModified('password')) {
